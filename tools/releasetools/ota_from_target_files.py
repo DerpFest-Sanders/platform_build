@@ -1031,7 +1031,8 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   script.Print(" Security patch: %s"%(security_patch));
   script.Print(" Device: %s"%(device));
   script.Print("------------------------------------------");
-
+  script.Print(" Liked my work ? - paypal.me/marshmello61 ");
+  script.Print("------------------------------------------");
   device_specific.FullOTA_InstallBegin()
 
   CopyInstallTools(output_zip)
